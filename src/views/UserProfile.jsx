@@ -31,6 +31,8 @@ import { UserCard } from "components/UserCard/UserCard.jsx";
 import Button from "components/CustomButton/CustomButton.jsx";
 
 import avatar from "assets/img/profilepic.jpeg";
+import logo from "assets/img/darktheme1.jpg";
+
 
 class UserProfile extends Component {
   render() {
@@ -41,65 +43,65 @@ class UserProfile extends Component {
             <Col md={8}>
               <Card
                 content={
-               <div className="w-full ">
-                 <div className="flex border-b border-gray-300">
+               <div className="w3-animate-left w-full py-2">
+                 <div className="flex border-b border-gray-300 py-2">
 
-                 <div className="w-full md:w-1/2 flex">
-                   <h4 className="text-md">Full name</h4>
+                 <div className="w-full md:w-1/2 flex ">
+                   <h5 className="text-3xl">Full name</h5>
                  </div>
                  <div className="w-full md:w-1/2 flex">
-                   <h4 className="text-md"> : Arjun Sankar</h4>
+                   <h5 className="text-3xl"> : Arjun Sankar</h5>
                  </div>
                  </div>
                  <div className="flex border-b border-gray-300">
-<div className="w-full md:w-1/2 flex">
-  <h4 className="text-md"> Age</h4>
+<div className="w-full md:w-1/2 flex py-2">
+  <h5 className="text-3xl"> Age</h5>
 </div>
 <div className="w-full md:w-1/2 flex">
-  <h4 className="text-md">: 25</h4>
+  <h5 className="text-3xl">: 25</h5>
 </div>
 </div>
 <div className="flex border-b border-gray-300">
-<div className="w-full md:w-1/2 flex">
-  <h4 className="text-md">Email ID</h4>
+<div className="w-full md:w-1/2 flex py-2">
+  <h5 className="text-3xl">Email ID</h5>
 </div>
 <div className="w-full md:w-1/2 flex">
-  <h4 className="text-md">: arjunsankar24@gmail.com</h4>
+  <h5 className="text-3xl">: arjunsankar24@gmail.com</h5>
 </div>
 </div>
 <div className="flex border-b border-gray-300">
-<div className="w-full md:w-1/2 flex">
-  <h4 className="text-md">Mobile Number</h4>
+<div className="w-full md:w-1/2 flex py-2">
+  <h5 className="text-3xl">Mobile Number</h5>
 </div>
 <div className="w-full md:w-1/2 flex">
-  <h4 className="text-md">: +91 9043540543</h4>
+  <h5 className="text-3xl">: +91 9043540543</h5>
 </div>
 </div> 
 
 <div className="flex border-b border-gray-300">
-<div className="w-full md:w-1/2 flex">
-  <h4 className="text-md">Experience</h4>
+<div className="w-full md:w-1/2 flex py-2">
+  <h5 className="text-3xl">Experience</h5>
 </div>
 <div className="w-full md:w-1/2 flex">
-  <h4 className="text-md">: 2</h4>
+  <h5 className="text-3xl">: 2</h5>
 </div>
 </div> 
 <div className="flex border-b border-gray-300">
-<div className="w-full md:w-1/2 flex">
-  <h4 className="text-md">Nationality</h4>
+<div className="w-full md:w-1/2 flex py-2">
+  <h5 className="text-3xl">Nationality</h5>
 </div>
 <div className="w-full md:w-1/2 flex">
-  <h4 className="text-md">: Indian</h4>
+  <h5 className="text-3xl">: Indian</h5>
 </div>
 </div>
  
  <div className="flex border-b border-gray-300">
-<div className="w-full md:w-1/2 flex">
-  <h4 className="text-md">Address</h4>
+<div className="w-full md:w-1/2 flex py-2">
+  <h5 className="text-3xl">Address</h5>
 </div>
 <div className="w-full md:w-1/2 flex">
-  <h4 className="text-md">: 7/77,Bharath nagar 3rd street 
-     ernavoor chennai-57</h4>
+  <h5 className="text-3xl">: 7/77,Bharath nagar 3rd street 
+     ernavoor chennai-57</h5>
 </div>
 </div>
 
@@ -108,25 +110,20 @@ class UserProfile extends Component {
               }
               />
             </Col>
-            <Col md={4}>
+            <Col md={4} className="w3-animate-right">
               <UserCard
-                bgImage="https://ununsplash.imgix.net/photo-1431578500526-4d9613015464?fit=crop&fm=jpg&h=300&q=75&w=400"
+                bgImage={logo}
                 avatar={avatar}
                 name="Arjun Sankar"
-                userName="Software developer"
+                userName="SOFTWARE DEVELOPER"
                 description={
 
                   <span>
-                                     <br/>
-
-“You are a computer. <br />
-If you become front-end you'll count the likes on social media
-                    <br />
-                    If you become back-end you'll be breathing deep on a 
-                  mountain
                   <br/>
-                  Listen! one life man. Become a Full-stack".
-                  
+I am a front end developer  
+                    <br />
+I can  give responsive webiste and clear code.
+I provide more web animations  in our sites.               
                                     </span>
                 }
                 socials={

@@ -23,21 +23,24 @@ import Icons from "views/Icons.jsx";
 import Maps from "views/Maps.jsx";
 import Notifications from "views/Notifications.jsx";
 import Upgrade from "views/Upgrade.jsx";
+import projectExperience from "views/projectExperience.js";
+
+
 
 const dashboardRoutes = [
   
   {
-    path: "/user",
+    path: "/myprofile",
     name: "About Me",
     icon: "pe-7s-user",
     component: UserProfile,
     layout: "/admin"
   },
   {
-    path: "/notifications",
+    path: "/projectExperience",
     name: "Project Experience",
     icon: "pe-7s-bell",
-    component: Notifications,
+    component: projectExperience,
     layout: "/admin"
   },
   {

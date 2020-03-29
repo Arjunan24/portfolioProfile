@@ -26,9 +26,8 @@ export class UserCard extends Component {
         </div>
         <div className="content">
           <div className="author">
-            <a href="#pablo">
               <img
-                className="avatar border-gray"
+                className="avatar border-gray flex items-center md:ml-5"
                 src={this.props.avatar}
                 alt="..."
               />
@@ -37,7 +36,7 @@ export class UserCard extends Component {
                 <br />
                 <small>{this.props.userName}</small>
               </h4>
-            </a>
+            
           </div>
           <p className="description text-center">{this.props.description}</p>
         </div>
