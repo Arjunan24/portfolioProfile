@@ -110,7 +110,7 @@ class UserProfile extends Component {
               }
               />
             </Col>
-            <Col md={4} className="w3-animate-right">
+            <Col md={4} className="w3-animate-right ">
               <UserCard
                 bgImage={logo}
                 avatar={avatar}
@@ -129,17 +129,12 @@ I provide more web animations  in our sites.
                 socials={
                   <div>
                     <Button simple>
-                      <a href="#">
+                      <a href="https://www.facebook.com/" target="_blank">
 
                       <i className="fa fa-facebook-square" />
                       </a>
                     </Button>
-                    <Button simple>
-                      <i className="fa fa-twitter" />
-                    </Button>
-                    <Button simple>
-                      <i className="fa fa-google-plus-square" />
-                    </Button>
+                    
                   </div>
                 }
               />
@@ -147,6 +142,8 @@ I provide more web animations  in our sites.
           </Row>
         </Grid>
       </div>
+    
+    
     );
   }
 }

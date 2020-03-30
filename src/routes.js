@@ -24,7 +24,7 @@ import Maps from "views/Maps.jsx";
 import Notifications from "views/Notifications.jsx";
 import Upgrade from "views/Upgrade.jsx";
 import projectExperience from "views/projectExperience.js";
-
+import Resume from "views/Resume.js";
 
 
 const dashboardRoutes = [
@@ -37,26 +37,33 @@ const dashboardRoutes = [
     layout: "/admin"
   },
   {
-    path: "/projectExperience",
-    name: "Project Experience",
-    icon: "pe-7s-bell",
+    path: "/projects",
+    name: "Projects",
+    icon: "pe-7s-next-2",
     component: projectExperience,
     layout: "/admin"
   },
   {
-    path: "/dashboard",
+    path: "/resume",
     name: "Resume",
-    icon: "pe-7s-graph",
-    component: Dashboard,
+    icon: "pe-7s-diskette",
+    component: Resume,
     layout: "/admin"
   },
-  {
-    path: "/maps",
-    name: "Maps",
-    icon: "pe-7s-map-marker",
-    component: Maps,
-    layout: "/admin"
-  },
+  // {
+  //   path: "/maps",
+  //   name: "Maps",
+  //   icon: "pe-7s-map-marker",
+  //   component: Maps,
+  //   layout: "/admin"
+  // },
+  // {
+  //   path: "/icons",
+  //   name: "icons",
+  //   icon: "pe-7s-map-marker",
+  //   component: Icons,
+  //   layout: "/admin"
+  // },
   
   
 ];
