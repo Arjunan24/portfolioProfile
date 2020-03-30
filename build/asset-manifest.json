@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a629a0d0.chunk.css",
+    "main.js": "/static/js/main.5b31f3e4.chunk.js",
+    "main.js.map": "/static/js/main.5b31f3e4.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.193606c7.chunk.css": "/static/css/2.193606c7.chunk.css",
+    "static/js/2.30651f57.chunk.js": "/static/js/2.30651f57.chunk.js",
+    "static/js/2.30651f57.chunk.js.map": "/static/js/2.30651f57.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.de30bd9751f95efe613ff0e7ddb50433.js": "/precache-manifest.de30bd9751f95efe613ff0e7ddb50433.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.193606c7.chunk.css.map": "/static/css/2.193606c7.chunk.css.map",
+    "static/css/main.a629a0d0.chunk.css.map": "/static/css/main.a629a0d0.chunk.css.map",
+    "static/media/pe-icon-7-stroke.css": "/static/media/Pe-icon-7-stroke.c45f7de0.svg",
+    "static/media/amanSalama.jpeg": "/static/media/amanSalama.8ab8d0bb.jpeg",
+    "static/media/arjun-resume.pdf": "/static/media/arjun-resume.918235d6.pdf",
+    "static/media/darktheme1.jpg": "/static/media/darktheme1.7da6991f.jpg",
+    "static/media/bootstrap.min.css": "/static/media/glyphicons-halflings-regular.fa277232.woff",
+    "static/media/profilepic.jpeg": "/static/media/profilepic.9c424371.jpeg",
+    "static/media/reactNativeamansalama.jpeg": "/static/media/reactNativeamansalama.276ba5e1.jpeg",
+    "static/media/saned.jpeg": "/static/media/saned.a183ec37.jpeg",
+    "static/media/sidebar-1.jpg": "/static/media/sidebar-1.6be21e8a.jpg",
+    "static/media/sidebar-2.jpg": "/static/media/sidebar-2.7a4ce7cc.jpg",
+    "static/media/sidebar-3.jpg": "/static/media/sidebar-3.34535b95.jpg",
+    "static/media/sidebar-4.jpg": "/static/media/sidebar-4.7bc259fd.jpg"
+  }
+}
