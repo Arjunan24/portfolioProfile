@@ -25,9 +25,11 @@ export class UserCard extends Component {
           <img src={this.props.bgImage} alt="..." />
         </div>
         <div className="content">
-          <div className="author">
+          <div className="author w-full">
+           
               <img
-                className="avatar border-gray flex items-center md:ml-5"
+                className="avatar border-gray w-full "
+                style={{margin:"auto"}}
                 src={this.props.avatar}
                 alt="..."
               />
@@ -36,7 +38,7 @@ export class UserCard extends Component {
                 <br />
                 <small>{this.props.userName}</small>
               </h4>
-            
+           
           </div>
           <p className="description text-center">{this.props.description}</p>
         </div>

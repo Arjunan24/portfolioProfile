@@ -43,7 +43,10 @@ class UserProfile extends Component {
             <Col md={8}>
               <Card
                 content={
-               <div className="w3-animate-left w-full py-2">
+              //  <div className={`${"lg:"?"w3-animate-left":"w3-animate-left"}`}>
+                 <div className="w3-animate-left  w-full py-2">
+
+
                  <div className="flex border-b border-gray-300 py-2">
 
                  <div className="w-full md:w-1/2 flex ">
@@ -61,14 +64,26 @@ class UserProfile extends Component {
   <h5 className="text-3xl">: 25</h5>
 </div>
 </div>
+
 <div className="flex border-b border-gray-300">
 <div className="w-full md:w-1/2 flex py-2">
   <h5 className="text-3xl">Email ID</h5>
 </div>
 <div className="w-full md:w-1/2 flex">
-  <h5 className="text-3xl">: arjunsankar24@gmail.com</h5>
+  <h5 className="text-3xl">: arjunsankar24
+  @gmail.com</h5>
 </div>
 </div>
+{/* <div className="hidden md:block flex border-b border-gray-300">
+<div className="w-full md:w-1/2 flex py-2">
+  <h5 className="text-3xl">Email ID</h5>
+</div>
+<div className="w-full md:w-1/3 flex">
+  <h5 className="text-3xl">: arjunsankar24
+  @gmail.com</h5>
+</div>
+</div> */}
+
 <div className="flex border-b border-gray-300">
 <div className="w-full md:w-1/2 flex py-2">
   <h5 className="text-3xl">Mobile Number</h5>

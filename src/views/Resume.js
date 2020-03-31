@@ -49,7 +49,7 @@ class Resume extends Component {
     const rtext = "React JS :"
     const rntext = "React Native JS :"
     const angtext = "Angular JS :"
-    const botailtext = "Bootstrap/ Tailwindcss :"
+    const botailtext = "Bootstrap/ Tailwind css :"
     return (
       <div className="content">
         <div className="card">
@@ -77,7 +77,7 @@ class Resume extends Component {
               </div>
             </div>
           </div>
-          <div data-aos="flip-left" data-aos-delay="100" class="flex content-start flex-wrap h-48 p-3">
+          <div data-aos="flip-left" data-aos-delay="100" class="flex content-start flex-wrap h-48 py-3">
             <div class=" flex items-center w-1/4 p-2">
               <div class="text-gray-700 text-center  p-2 text-3xl">{rntext}</div>
             </div>
